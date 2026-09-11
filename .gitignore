@@ -1,0 +1,26 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------- PyInstaller 打包产物（体积大，不入库） ----------
+dist/
+build/
+*.spec.bak
+
+# ---------- 运行时生成的个人配置（快捷键/波形高度，按需自留） ----------
+subsync_settings.json
+
+# ---------- 运行时日志 / 诊断输出（含本机路径，不入库） ----------
+*.log
+*.alass.log
+bench_tmp/
+
+# ---------- 开发工具/本地数据 ----------
+.workbuddy/
+.vscode/
+.idea/
+.DS_Store
+tools/upx.exe
